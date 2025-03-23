@@ -1,0 +1,9 @@
+.gallery {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  margin: 40px 20px;
+}
+.galleryList {
+  list-style-type: none;
+}
